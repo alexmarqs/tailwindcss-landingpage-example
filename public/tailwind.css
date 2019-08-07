@@ -1,0 +1,42 @@
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+@tailwind base;
+
+button:focus {
+  outline: none;
+}
+
+html {
+  @apply font-sans;
+}
+
+/**
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ */
+@tailwind components;
+
+.btn {
+  @apply font-bold rounded-full py-2 px-4 shadow-lg uppercase;
+}
+
+.btn-white {
+  @apply bg-white;
+}
+
+/**
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+@tailwind utilities;
+
+@responsive {
+  .bg-gradient-hero {
+    background: linear-gradient(90deg, theme('colors.primary.light') 15%, theme('colors.primary.default') 100%);
+  }
+  .bg-gradient-navbar {
+    background: linear-gradient(90deg, theme('colors.secondary.default') 15%, theme('colors.secondary.dark') 100%);
+  }
+}
