@@ -4,6 +4,8 @@ A simple landing page using the CSS framework Tailwind in a proper PostCSS envir
 
 Live demo: https://tailwindcss-landingpage-example.netlify.com/ 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8fb5fbb2-fe90-433f-abeb-b7b8783b82e9/deploy-status)](https://app.netlify.com/sites/tailwindcss-landingpage-example/deploys)
+
 ## To get started:
 
 1. Install the dependencies:
