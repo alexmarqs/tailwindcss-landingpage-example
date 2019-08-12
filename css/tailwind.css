@@ -1,0 +1,23 @@
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ * without postcss-import: @tailwind base;
+ */
+ @import "tailwindcss/base";
+ @import "./custom-base-styles.css";
+
+/**
+ * This injects Tailwind's component classes and any component classes
+ * registered by plugins.
+ * without postcss-import: @tailwind components;
+ */
+ @import "tailwindcss/components";
+ @import "./custom-components.css";
+
+/**
+ * This injects Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ * without postcss-import: @tailwind utilities;
+ */
+@import "tailwindcss/utilities";
+@import "./custom-utilities.css";

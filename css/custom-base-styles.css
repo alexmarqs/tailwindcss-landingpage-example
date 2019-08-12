@@ -1,0 +1,7 @@
+button:focus {
+  outline: none;
+}
+
+html {
+  @apply font-sans;
+}
