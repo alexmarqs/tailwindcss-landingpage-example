@@ -1,0 +1,8 @@
+@responsive {
+  .bg-gradient-hero {
+    background: linear-gradient(90deg, theme('colors.primary.light') 15%, theme('colors.primary.default') 100%);
+  }
+  .bg-gradient-navbar {
+    background: linear-gradient(90deg, theme('colors.secondary.default') 15%, theme('colors.secondary.dark') 100%);
+  }
+}

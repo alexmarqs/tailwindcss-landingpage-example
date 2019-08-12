@@ -1,0 +1,7 @@
+.btn {
+  @apply font-bold rounded-full py-2 px-4 shadow-lg uppercase;
+}
+
+.btn-white {
+  @apply bg-white;
+}
